@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/product-landing-page/static/css/main.5baf9465.css",
+    "main.js": "/product-landing-page/static/js/main.0772f14b.js",
+    "static/media/product.png": "/product-landing-page/static/media/product.2ae72415a4689180f61b.png",
+    "static/media/product2.png": "/product-landing-page/static/media/product2.c08ce2c6d356e1147397.png",
+    "index.html": "/product-landing-page/index.html",
+    "main.5baf9465.css.map": "/product-landing-page/static/css/main.5baf9465.css.map",
+    "main.0772f14b.js.map": "/product-landing-page/static/js/main.0772f14b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5baf9465.css",
+    "static/js/main.0772f14b.js"
+  ]
+}
