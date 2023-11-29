@@ -1,0 +1,10 @@
+.pricing{
+    background-color: #f3f3f3;
+    min-height: 650px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}

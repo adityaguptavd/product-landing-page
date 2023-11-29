@@ -1,0 +1,81 @@
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 150px 0 50px;
+    min-height: 650px;
+}
+
+.home-description{
+    padding: 125px 0 0 0;
+    max-width: 457px;
+}
+
+.home-description-heading{
+    transform: translateY(-20px);
+    opacity: 0;
+    transition: all 0.5s;
+    font-size: 48px;
+    color: var(--darkText);
+    margin: 0;
+    padding: 0;
+}
+
+.home-description-detail{
+    transform: translateY(-20px);
+    opacity: 0;
+    transition: all 0.5s;
+    color: #848484;
+    font-size: 14px;
+    margin-top: 20px;
+    max-width: 400px;
+}
+
+.home-description-heading.active, .home-description-detail.active{
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.home-buy-btn{
+    max-width: 112px;
+    max-height: 38px;
+    background-color: var(--theme);
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin: 24px 12px 0 0;
+    padding: 8px 24px;
+    border: 1px solid var(--theme);
+    border-radius: 0.125rem;
+    box-shadow: 0 10px 30px var(--shadow);
+    transition: all 0.2s;
+    cursor: pointer;
+    touch-action: manipulation;
+    user-select: none;
+    animation-name: fadeInDown;
+    animation-delay: 0.3s;
+    animation-duration: 1s;
+    transition: all 0.5s;
+}
+
+.home-buy-btn:hover{
+    transform: translateY(-5px);
+    transition: all 0.5s;
+}
+
+.product-image{
+    width: 626px;
+    height: 445px;
+}
+
+@media screen and (max-width : 600px){
+    .product-image{
+        width: 400px;
+        height: 350px;
+    }
+
+    .home{
+        padding: 50px;
+    }
+}

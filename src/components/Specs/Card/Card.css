@@ -1,0 +1,45 @@
+.card{
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    max-width: 263px;
+    padding: 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    height: 370px;
+}
+.active{
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.5s ease-in-out;
+}
+
+.card:hover{
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 10px rgba(0,0,0,.15);
+}
+
+.card img{
+    max-width: 45px;
+    max-height: 45px;
+    margin-bottom: 10px;
+}
+
+.card h1{
+    margin: 0;
+    padding: 0;
+    color: #343434;
+    font-size: 24px;
+}
+
+.card p{
+    font-size: 16px;
+    color: #a1a1a1;
+    line-height: 1.6;
+}
